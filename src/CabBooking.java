@@ -52,6 +52,7 @@ public class CabBooking {
             System.out.println("Input is miss match ");
         }
         finally {
+            // scanner close
             scanner.close();
         }
     }
